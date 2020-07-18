@@ -38,16 +38,16 @@ In this project, content based filtering was used because only the music informa
 ![image](https://user-images.githubusercontent.com/33968347/87862156-b851e780-c955-11ea-9b9c-0831c2bb6402.png)![image](https://user-images.githubusercontent.com/33968347/87862159-bf78f580-c955-11ea-9fad-9a895301bd0c.png)
 
 * The similarity ratio of the music uploaded to the system with other music is listed from high to low.
-* Top 5 music names on the list are taken.
+* Top 5 music names on the list are taken. 
 
 ![image](https://user-images.githubusercontent.com/33968347/87862357-d6b8e280-c957-11ea-8a15-b4b0784932f2.png)
         ![image](https://user-images.githubusercontent.com/33968347/87862359-db7d9680-c957-11ea-8dec-7e892629ba1a.png)
 
 ## Graphical User Interface ( GUI )
 
-**tkinter** library is used for GUI.
+**tkinter** library is used for GUI. 
 
-* The purpose of the user interface is that the user chooses music from the file to be uploaded to the system, and it is automatically uploaded to the system, this uploaded piece is given to the pre-trained model by passing the data preprocessing steps, and the type of music is predicted, then this track is similar to other music and the system wants to listen to the user. It offers the 5 similar music to the track, and the user has the opportunity to listen to them.
+* The purpose of the user interface is that the user chooses music from the file to be uploaded to the system, and it is automatically uploaded to the system, this uploaded piece is given to the pre-trained model by passing the data preprocessing steps, and the type of music is predicted, then this track is similar to other music and the system wants to listen to the user. It offers the 5 similar music to the track, and the user has the opportunity to listen to them. ( [**app.py**](https://github.com/sevvalyogurtcuoglu/Graduation_Project/blob/master/app.py) )
 
 ![image](https://user-images.githubusercontent.com/33968347/87862528-d9b4d280-c959-11ea-9416-df31ff768a12.png)
 

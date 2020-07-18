@@ -22,7 +22,7 @@ from sklearn.preprocessing import  StandardScaler
 scaler = StandardScaler()
 X = scaler.fit_transform(np.array(x, dtype = float))
 x = (x - np.min(x))/(np.max(x)-np.min(x))
-#%% datasetimizin train ve test olarak ayılması ½80(800 sample) train %20 test (200 sample)
+
 from sklearn.model_selection import train_test_split
 x_train, x_test, y_train, y_test = train_test_split(x,y,test_size = 0.2,random_state=0)
 

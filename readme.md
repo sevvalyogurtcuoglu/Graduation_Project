@@ -27,7 +27,7 @@ The music data used in the project is [fma_medium.zip](https://github.com/mdeff/
 
 * The model trained with Random forest for use in the recommendation system was saved ( [**train.py**](https://github.com/sevvalyogurtcuoglu/Graduation_Project/blob/master/train.py) ). Model registration was carried out with the **joblib** module ( [**modell.pkl**](https://github.com/sevvalyogurtcuoglu/Graduation_Project/blob/master/modell.pkl) ).
 
-## Recoomendation System
+## Recommendation System
 In this project, content based filtering was used because only the music information was available.
 
 ![image](https://user-images.githubusercontent.com/33968347/87862108-3cf03600-c955-11ea-9f64-ac67f1341844.png)
@@ -35,12 +35,13 @@ In this project, content based filtering was used because only the music informa
 * **The cosine similarty** function was used to understand the relationship between the selected music and the attribute values of other music.
 
 ### Cosine Similarty
-![image](https://user-images.githubusercontent.com/33968347/87862156-b851e780-c955-11ea-9b9c-0831c2bb6402.png)
-![image](https://user-images.githubusercontent.com/33968347/87862159-bf78f580-c955-11ea-9fad-9a895301bd0c.png)
+![image](https://user-images.githubusercontent.com/33968347/87862156-b851e780-c955-11ea-9b9c-0831c2bb6402.png)![image](https://user-images.githubusercontent.com/33968347/87862159-bf78f580-c955-11ea-9fad-9a895301bd0c.png)
 
 * The similarity ratio of the music uploaded to the system with other music is listed from high to low.
 * Top 5 music names on the list are taken.
 
 ![image](https://user-images.githubusercontent.com/33968347/87862357-d6b8e280-c957-11ea-8a15-b4b0784932f2.png)
 ![image](https://user-images.githubusercontent.com/33968347/87862359-db7d9680-c957-11ea-8dec-7e892629ba1a.png)
+
+## Graphical User Interface ( GUI )
 

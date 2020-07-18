@@ -3,7 +3,7 @@
 #                   *** CLASSİFİCATİON ***
 
 import pandas as pd
-data1 = pd.read_csv("data.csv")
+data1 = pd.read_csv("yepyeni.csv")
 data = data1.drop(['filename'],axis=1)
 #%%  korelasyon
 corr=data.corr()

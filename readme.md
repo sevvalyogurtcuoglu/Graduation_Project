@@ -41,7 +41,18 @@ In this project, content based filtering was used because only the music informa
 * Top 5 music names on the list are taken.
 
 ![image](https://user-images.githubusercontent.com/33968347/87862357-d6b8e280-c957-11ea-8a15-b4b0784932f2.png)
-![image](https://user-images.githubusercontent.com/33968347/87862359-db7d9680-c957-11ea-8dec-7e892629ba1a.png)
+        ![image](https://user-images.githubusercontent.com/33968347/87862359-db7d9680-c957-11ea-8dec-7e892629ba1a.png)
 
 ## Graphical User Interface ( GUI )
 
+**tkinter** library is used for GUI.
+
+* The purpose of the user interface is that the user chooses music from the file to be uploaded to the system, and it is automatically uploaded to the system, this uploaded piece is given to the pre-trained model by passing the data preprocessing steps, and the type of music is predicted, then this track is similar to other music and the system wants to listen to the user. It offers the 5 similar music to the track, and the user has the opportunity to listen to them.
+
+![image](https://user-images.githubusercontent.com/33968347/87862528-d9b4d280-c959-11ea-9416-df31ff768a12.png)
+
+![image](https://user-images.githubusercontent.com/33968347/87862530-dfaab380-c959-11ea-9d49-911d3ad64384.png)
+
+
+
+ ### [ Presentation](https://github.com/sevvalyogurtcuoglu/Graduation_Project/blob/master/sunum2.pdf)

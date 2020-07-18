@@ -9,3 +9,12 @@ In this project developed the following steps have been implemented.
 
 ![image](https://user-images.githubusercontent.com/33968347/87854312-c41fb880-c919-11ea-8ab4-9325d81913ac.png)
 
+## DATASET
+
+The music data used in the project is [fma_medium.zip](https://github.com/mdeff/fma) data created by [FMA](https://freemusicarchive.org/search).
+
+* When music files were downloaded, it was observed that there were unlabeled data, so first of all  the data was labelled.
+* The data set consists of 25,000 tracks of mp3 and 16 genres, each 30 seconds long. 6 different genres (blues, classical, electronic, hip-hop, metal, punk) were selected for this project and a data set was created.
+
+* **librosa** library was used for feature extraction in the processing . ( [**data_processing.py**](https://github.com/sevvalyogurtcuoglu/Graduation_Project/blob/master/data_processing.py) )
+ *information: librosa library accepts music in wav format, data has been converted from mp3 to wav. ( [**conversion_format.py**](https://github.com/sevvalyogurtcuoglu/Graduation_Project/blob/master/conversion_format.py) )*

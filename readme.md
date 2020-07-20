@@ -53,6 +53,6 @@ In this project, content based filtering was used because only the music informa
 
 ![image](https://user-images.githubusercontent.com/33968347/87862530-dfaab380-c959-11ea-9d49-911d3ad64384.png)
 
-
+:)
 
  ### [ Presentation](https://github.com/sevvalyogurtcuoglu/Graduation_Project/blob/master/sunum2.pdf)
